@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 3proxy\n"
+"POT-Creation-Date: 2019-10-22 23:38+0500\n"
+"PO-Revision-Date: 2019-10-22 23:39+0500\n"
+"Last-Translator: \n"
+"Language-Team: AngrySiberianRacoon\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: proxy.py\n"
+
+#: proxy.py:227
+#, python-brace-format
+msgid "your input: [{value}]"
+msgstr "вы ввели: [{value}]"
+
+#: proxy.py:233
+msgid "continue [y] / input again [n] ?"
+msgstr "продолжить [y] / повторить ввод [n] ?"
+
+#: proxy.py:244
+msgid "try again"
+msgstr "попробуйте ещё раз"
+
+#: proxy.py:251
+msgid "limit must be a number"
+msgstr "лимит должен быть числом"
+
+#: proxy.py:257
+msgid "port must be in range 1024 - 65535"
+msgstr "порт должен быть в диапазоне 1024 - 65535"
+
+#: proxy.py:264
+msgid "the name must contain only letters, numbers and symbols [_ - . @]"
+msgstr "имя должно состоять только из букв, чисел и символов [_ - . @]"
+
+#: proxy.py:280
+msgid "Enter port for HTTP proxy, (for ex. 3128)"
+msgstr "Введите номер порта для HTTP прокси, (например 3128)"
+
+#: proxy.py:280 proxy.py:287
+msgid "or leave blank for disable"
+msgstr "или оставьте пустым для отключения протокола"
+
+#: proxy.py:287
+msgid "Enter port for SOCKS 4/4.5/5 proxy, (for ex. 1080)"
+msgstr "Введите номер порта для SOCKS 4/4.5/5 прокси, (например 1080)"
+
+#: proxy.py:298
+msgid "restart server"
+msgstr "перезагрузка сервера"
+
+#: proxy.py:301
+msgid "done"
+msgstr "готово"
+
+#: proxy.py:333
+msgid "Enter the user name"
+msgstr "Введите имя пользователя"
+
+#: proxy.py:337
+#, python-brace-format
+msgid "User [{user}] already exist"
+msgstr "Пользователь [{user}] уже существует"
+
+#: proxy.py:340
+#, python-brace-format
+msgid "Enter the password for [{user}]"
+msgstr "Введите пароль для пользователя [{user}]"
+
+#: proxy.py:340 proxy.py:344
+msgid "you can leave the field blank"
+msgstr "вы можете оставить значение пустым"
+
+#: proxy.py:344
+#, python-brace-format
+msgid "Enter traffic limit (megabytes per day) for [{user}]"
+msgstr "Введите ограничение трафика (мегабайт в день) для [{user}]"
+
+#: proxy.py:359 proxy.py:388
+msgid "No users"
+msgstr "Нет пользователей"
+
+#: proxy.py:362 proxy.py:391
+msgid "back"
+msgstr "назад"
+
+#: proxy.py:362 proxy.py:391
+msgid "Select user for view"
+msgstr "Выберите пользователя для просмотра"
+
+#: proxy.py:378
+msgid "Name"
+msgstr "Имя"
+
+#: proxy.py:379
+msgid "Password"
+msgstr "Пароль"
+
+#: proxy.py:409
+msgid "Http port"
+msgstr "Http порт"
+
+#: proxy.py:412
+msgid "Socks port"
+msgstr "Socks порт"
+
+#: proxy.py:419
+msgid "No traffic restrictions"
+msgstr "Нет ограничений трафика"
+
+#: proxy.py:434
+msgid "Traffic limit"
+msgstr "Ограничение трафика"
+
+#: proxy.py:437
+msgid "No traffic used"
+msgstr "Нет использованного трафика"
+
+#: proxy.py:442
+msgid "Used traffic"
+msgstr "Использованный трафик"
+
+#: proxy.py:463
+msgid "initial setup"
+msgstr "первоначальная настройка"
+
+#: proxy.py:463
+msgid "add user"
+msgstr "добавить пользователя"
+
+#: proxy.py:463
+msgid "view users"
+msgstr "просмотр пользователей"
+
+#: proxy.py:463
+msgid "remove user"
+msgstr "удалить пользователя"
+
+#: proxy.py:463
+msgid "select language"
+msgstr "выбрать язык"
+
+#: proxy.py:463
+msgid "exit"
+msgstr "выход"
+
+#~ msgid "add client"
+#~ msgstr "добавить клиента"
